@@ -920,11 +920,11 @@
     width: 50px;
     height: 50px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
-    bottom: 13%;
+    bottom: 15%;
     z-index: 100;
     display: block;
     max-width: auto;
@@ -1064,9 +1064,9 @@
     /* border-radius: 0; */
   }
 
- .estate-customer {
+  .estate-customer {
     top: 40%;
-   display: none;
+    display: none;
   }
 
   .estate-customer img {
@@ -3073,11 +3073,11 @@
     width: 45px;
     height: 45px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
-    bottom: 13%;
+    bottom: 15%;
     z-index: 100;
     display: block;
     max-width: auto;
@@ -5057,11 +5057,11 @@
     width: 40px;
     height: 40px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
-    bottom: 11%;
+    bottom: 14%;
     z-index: 100;
     display: block;
     max-width: auto;
@@ -5077,7 +5077,8 @@
     transition: transform 0.3s ease;
   }
 
-  .facebook-text,  .whatsapp-text {
+  .facebook-text,
+  .whatsapp-text {
     /* padding: 6px 1; */
     font-size: 1.7rem;
   }
@@ -6133,11 +6134,11 @@
     width: 40px;
     height: 40px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
-    bottom: 11%;
+    bottom: 13%;
     z-index: 100;
     display: block;
     max-width: auto;
@@ -6153,7 +6154,8 @@
     transition: transform 0.3s ease;
   }
 
-  .facebook-text,  .whatsapp-text {
+  .facebook-text,
+  .whatsapp-text {
     /* padding: 6px 1; */
     font-size: 1.7rem;
   }
@@ -7187,11 +7189,11 @@
     width: 40px;
     height: 40px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
-    bottom: 11%;
+    bottom: 13%;
     z-index: 100;
     display: block;
     max-width: auto;
@@ -7207,7 +7209,8 @@
     transition: transform 0.3s ease;
   }
 
-  .facebook-text,  .whatsapp-text {
+  .facebook-text,
+  .whatsapp-text {
     /* padding: 6px 1; */
     font-size: 1.7rem;
   }
