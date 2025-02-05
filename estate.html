@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estate Agency | Apex Skyline Limited</title>
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/estate.css" />
+    <!-- CSS Variables  -->
+    <link rel="stylesheet" href="./CSS/vairables.css" />
+    <link rel="preload" href="./CSS/estate.css" as="style" />
+    <link rel="preload" href="./lib/bootstrap.min.css" as="style" />
+
+    <!-- CSS Responsive  -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- CSS Animation  -->
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <!-- ======================= Animate CSS ========================= -->
+    <link rel="stylesheet" href="./lib/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon" />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Apex Skyline Limited provides expert roofing services, including roof installation, repair, and maintenance with high-quality materials. Serving [City/Region], we guarantee durability and excellence. Get a free quote today!"
+    />
+
+    <meta
+      name="keywords"
+      content="roofing, roofing services, roof repair, roof installation, roofing company, Apex Skyline Limited roofing, roofing company, roof repair, best roofing services, roof replacement, roof maintenance, Apex Skyline, professional roofing, durable roofing solutions"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "RoofingContractor",
+        "name": "Apex Skyline Limited",
+        "url": "https://www.apexskyline.com",
+        "logo": "https://www.apexskyline.com/assets/logo.ico",
+        "description": "Expert roofing services including installation, repairs, and maintenance.",
+        "telephone": "+233502844282",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Burlar Junction Trafalgar(near the Ho teaching hospital)",
+          "addressLocality": "Burlar Junction Trafalgar",
+          "addressRegion": "HO",
+          "postalCode": "00233",
+          "addressCountry": "Ghana"
+        },
+        "sameAs": ["https://www.facebook.com/profile.php?id=61571874533540"]
+      }
+    </script>
+
+    <meta property="og:title" content="Apex Skyline Limited" />
+    <meta
+      property="og:description"
+      content="Apex Skyline Limited provides expert roofing services, including roof installation, repair, and maintenance with high-quality materials."
+    />
+    <meta property="og:image" content="assets/preview-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:url"
+      content="https://isaacski1.github.io/apexskylinelimited"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Apex Skyline Limited - Expert Roofing Services"
+    />
+    <meta
+      name="twitter:description"
+      content="We offer top-notch roofing solutions for residential and commercial properties. Contact us today for a free consultation!"
+    />
+    <meta name="twitter:image" content="assets/cover-banner.jpeg" />
+
+    <meta name="author" content="Apex Skyline Limited" />
+    <meta name="robots" content="index, follow" />
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./lib/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./lib/owl.theme.default.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Bootstrap Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Box Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =========== Background Pre-loader ========== -->
+    <div class="backgroud-preloader">
+      <div class="loader"></div>
+    </div>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html">
+            <img src="assets/logo-1.png" alt="Site Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list hamburger"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="roof-installation.html"
+                      >Roof Installation</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="roof-maintenance.html"
+                      >Roof Maintenance</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="roof-repair.html"
+                      >Roof Repair</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="estate.html"
+                      >Estate Agency</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="car-dealer.html"
+                      >Car Dealership</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Our Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">Projects gallery</a>
+              </li>
+            </ul>
+            <a href="contact.html" class="btn-primary lets-talk"
+              ><i class="bi bi-chat-dots"></i> Let's Talk</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ============ navigation Section End ==================-->
+
+    <!-- ================== Hero Section Start =================== -->
+    <section class="hero-section">
+      <div class="estate-carousel owl-carousel owl-theme position-relative">
+        <div class="estate-hero-carousel-item-1 animate__flipInX">
+          <img
+            src="assets/Estate/pexels-binyaminmellish-106399.jpg"
+            class="animate__bounceIn"
+            alt="Hero Banner One"
+          />
+          <div class="hero-layout"></div>
+          <div class="content">
+            <div class="blur-box">
+              <p>discover your ideal property today!</p>
+            </div>
+            <h1>find your perfect home</h1>
+            <a href="#gallery"
+              >Explore your dream home now <i class="bx bxs-right-arrow"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="estate-hero-carousel-item-2 animate__bounceIn">
+          <img
+            src="assets/Estate/pexels-binyaminmellish-1396122.jpg"
+            alt="Hero Banner Two"
+          />
+          <div class="hero-layout"></div>
+          <div class="content">
+            <div class="blur-box">
+              <p>discover your ideal property today!</p>
+            </div>
+            <h1>find your dream home</h1>
+            <a href="#gallery"
+              >Explore your dream home now <i class="bx bxs-right-arrow"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="estate-hero-carousel-item-3 animate__rotateIn">
+          <img
+            src="assets/Estate/pexels-expect-best-79873-323780.jpg"
+            alt="Hero Banner Three"
+          />
+          <div class="hero-layout"></div>
+          <div class="content">
+            <div class="blur-box">
+              <p>discover your ideal property today!</p>
+            </div>
+            <h1>find your luxury home</h1>
+            <a href="#gallery"
+              >Explore your dream home now <i class="bx bxs-right-arrow"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================== Hero Section End =================== -->
+
+    <!-- ================== Estate Section ONe Start ================= -->
+    <section class="container estate-section-one">
+      <div class="row estate-container p-3">
+        <div
+          class="col-lg col-12 estate-sec-container-1 mt-5 p-0 position-relative"
+        >
+          <div class="img-1 position-relative">
+            <img src="assets/Estate/sec-one-pic-1.png" />
+            <div class="estate-sec-1-layout"></div>
+          </div>
+          <div class="img-2">
+            <div class="img-2-box position-relative">
+              <img src="assets/Estate/sec-one-pic-2.png" />
+              <div class="estate-sec-2-layout"></div>
+            </div>
+          </div>
+          <div class="estate-customer">
+           
+            <img src="assets/happy-customer.png" alt="Happy Customers" />
+          </div>
+        </div>
+
+        <div
+          class="col-lg-5 col-12 estate-sec-container-2 mt-5 px-0 position-relative"
+        >
+          <h1 class="estate-sec-head">About Our Estate</h1>
+          <h2>Embrace the Elegance Our Exclusive Property</h2>
+          <p>
+            Our estate agency offers a wide range of properties to suit all
+            tastes and budgets. Whether you're looking for a family home, a
+            luxury apartment, or a commercial property, we have something for
+            everyone. Our experienced team is dedicated to helping you find your
+            perfect property.
+          </p>
+          <div class="cont mt-5">
+            <div class="box">
+              <h3>500+</h3>
+              <p>Homes Sold</p>
+            </div>
+            <div class="box">
+              <h3>5K</h3>
+              <p>Happy Customers</p>
+            </div>
+            <div class="box">
+              <h3>98%</h3>
+              <p>Satisfaction Rate</p>
+            </div>
+          </div>
+          <!-- ================= Schedule a call Start =================== -->
+          <section class="container pb-5">
+            <div class="estate-edited-h1 mt-5">
+              <h1 class="estate-title">Schedule Your Room Now!</h1>
+            </div>
+            <p class="estate-edited-h1-info mt-3 mb-5">
+              Book a viewing with our expert agents and explore the finest
+              properties available. We are here to assist you every step of the
+              way.
+            </p>
+            <a href="contact.html" class="roof-maintenance-contact"
+              ><i class="bx bx-phone-call"></i> Contact Us</a
+            >
+          </section>
+          <!-- ================= Schedule a call End =================== -->
+        </div>
+      </div>
+    </section>
+    <!-- ================== Estate Section ONe End ================= -->
+
+    <!-- ================== Estate Section Two Start =================== -->
+    <section class="container estate-section-two-container" id="gallery">
+      <div class="box-1">
+        <h1>Explore Our Estate Houses</h1>
+      </div>
+      <p>
+        Discover a variety of beautiful homes in our estate. From modern
+        apartments to spacious family houses, we have something for everyone.
+        Browse through our listings and find your dream home today.
+      </p>
+
+      <div class="row main-rooms p-3">
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/1.jpg" alt="House One" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/1.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/2.jpg" alt="House Two" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/2.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/3.jpg" alt="House Three" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/3.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/4.jpg" alt="House Four" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/4.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/5.jpg" alt="House Five" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/5.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/6.jpg" alt="House Six" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/6.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/7.jpg" alt="House Seven" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/7.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/8.jpg" alt="House Eight" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/8.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/9.jpg" alt="House Nine" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/9.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/10.jpg" alt="House Ten" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/10.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/11.jpg" alt="House Eleven" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/11.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-5 col-sm-12 mx-auto main-rooms-container p-0"
+        >
+          <div class="main-rooms-container-box p-0 position-relative">
+            <img src="assets/Estate/Gallery/12.jpg" alt="House Twelve" />
+            <div class="hover-layout">
+              <i class="bi bi-eye gallery-image"></i>
+            </div>
+            <div class="gallery-overlay" id="gallery-overlay">
+              <img
+                class="gallery-overlay-image"
+                src="assets/Estate/Gallery/12.jpg"
+                alt=""
+              />
+              <i class="bi bi-x close-gallery"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================== Estate Section Two End =================== -->
+
+    <!-- ================= Companies Logo Start =================== -->
+    <div
+      class="container companies-logo-carousel owl-carousel owl-theme position-relative"
+    >
+      <div class="logo-items border">
+        <img src="assets/Roof-Installation/logo-1.jpg" alt="Company Logo One" />
+      </div>
+      <div class="logo-items border">
+        <img src="assets/Roof-Installation/logo-2.jpg" alt="Company Logo Two" />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-3.jpg"
+          alt="Company Logo Three"
+        />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-4.jpg"
+          alt="Company Logo Four"
+        />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-5.jpg"
+          alt="Company Logo Five"
+        />
+      </div>
+      <div class="logo-items border">
+        <img src="assets/Roof-Installation/logo-6.jpg" alt="Company Logo Six" />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-7.jpg"
+          alt="Company Logo Seven"
+        />
+      </div>
+      <div class="logo-items border">
+        <img src="assets/Roof-Installation/logo-1.jpg" alt="Company Logo One" />
+      </div>
+      <div class="logo-items border">
+        <img src="assets/Roof-Installation/logo-2.jpg" alt="Company Logo Two" />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-3.jpg"
+          alt="Company Logo Three"
+        />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-4.jpg"
+          alt="Company Logo Four"
+        />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-5.jpg"
+          alt="Company Logo Five"
+        />
+      </div>
+      <div class="logo-items border">
+        <img src="assets/Roof-Installation/logo-6.jpg" alt="Company Logo Six" />
+      </div>
+      <div class="logo-items border">
+        <img
+          src="assets/Roof-Installation/logo-7.jpg"
+          alt="Company Logo Seven"
+        />
+      </div>
+    </div>
+    <!-- ================= Companies Logo End =================== -->
+
+    <!-- ==================== Footer Section Start ============== -->
+    <footer class="container-fluid" id="footer">
+      <div class="container footer-container">
+        <div class="footer__box mt-5">
+          <img src="assets/logo-1.png" alt="Footer Logo" class="footer-img" />
+          <div class="footer-cont">
+            <div class="footer-cont-icon"><i class="bi bi-envelope"></i></div>
+            <div class="info">
+              <p>Mail Us</p>
+              <a href="mailto:info@gmail.com">info@gmail.com</a>
+            </div>
+          </div>
+          <div class="footer-cont mt-4">
+            <div class="footer-cont-icon"><i class="bi bi-clock"></i></div>
+            <div class="info">
+              <p>Open Time</p>
+              <h1>09 AM - 06 PM, MON - SAT</h1>
+            </div>
+          </div>
+        </div>
+        <div class="footer__box mt-5">
+          <div class="footer-box-head">
+            <h1>Hotline Branches</h1>
+          </div>
+          <div class="footer-links">
+            <div class="box">
+              <p>Kasoa:</p>
+              <div class="cont">
+                <a href="tel:+233558766882">0558766882</a>
+                <span id="foward-slash">/</span>
+                <a href="tel:+233502844282">0502844282</a>
+              </div>
+            </div>
+            <div class="box">
+              <p>Takoradi:</p>
+              <div class="cont">
+                <a href="tel:+233209063781">0209063781</a>
+                <span id="foward-slash">/</span>
+                <a href="tel:+233558766882">0558766882</a>
+              </div>
+            </div>
+            <div class="box">
+              <p>Tarkwa:</p>
+              <div class="cont">
+                <a href="tel:+233557836774">0557836774</a>
+                <span id="foward-slash">/</span>
+                <a href="tel:+233505001673">0505001673</a>
+              </div>
+            </div>
+            <div class="box">
+              <p>Ho:</p>
+              <div class="cont">
+                <a href="tel:+233209145780">0209145780</a>
+                <span id="foward-slash">/</span>
+                <a href="tel:+233558766882">0558766882</a>
+              </div>
+            </div>
+            <div class="box">
+              <p>Kumasi:</p>
+              <div class="cont">
+                <a href="tel:+233557836774">0557836774</a>
+                <span id="foward-slash">/</span>
+                <a href="tel:+233505001673">0505001673</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__box mt-5">
+          <div class="footer-box-head">
+            <h1>useful link</h1>
+          </div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="footer__box mt-5">
+          <div class="footer-box-head">
+            <h1>further info</h1>
+          </div>
+          <div class="contact-numbers mt-5">
+            <!-- Need further info -->
+            <p>Want to talk and make business with us? Call now on:</p>
+
+            <a href="tel:+233558766882">055 876 6882</a>
+            <a href="tel:+233502844282">050 284 4282</a>
+            <a href="tel:+233505001673">050 500 1673</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2025 Apex Skyline Limited. Design By</p>
+        <a href="https://isaacski1.github.io/Portfolio" target="_blank"
+          >Isaacski Web Development Agency</a
+        >
+      </div>
+    </footer>
+    <!-- ==================== Footer Section End ============== -->
+
+    <!-- Jump to top -->
+    <a href="#top" class="go-top" data-go-top>
+      <i class="bx bxs-up-arrow"></i>
+    </a>
+
+    <!-- Chat on Facebook -->
+    <a
+      href="https://www.facebook.com/profile.php?id=61571874533540"
+      class="facebook"
+      target="_blank"
+      title="Let's Chat on Facebook"
+      ><img src="assets/facebook.png" alt="Facebook Chat" />
+      <span class="facebook-text position-relative">Facebook</span>
+    </a>
+
+    <!-- Chat on Whatsapp -->
+    <a
+      href="https://wa.me/+233502844282"
+      class="whatsapp-chat"
+      target="_blank"
+      title="Let's Chat on WhatsApp"
+      ><img src="assets/whatsapp.png" alt="WhatsApp Chat" />
+      <span class="whatsapp-text position-relative">Whatsapp</span>
+    </a>
+  </body>
+  <!-- jQuery CDN -->
+  <script src="./lib/jquery.js"></script>
+  <!-- Owl Carousel JS CDN -->
+  <script src="./lib/owl.carousel.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+  <!-- Script JS CDN -->
+  <script src="./JS/script.js"></script>
+</html>
