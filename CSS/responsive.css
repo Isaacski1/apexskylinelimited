@@ -2835,9 +2835,9 @@
   }
 
   .sec-six-container .cont .box_1 span i {
-    width: 50px;
-    height: 50px;
-    font-size: 5rem;
+    width: 40px;
+    height: 40px;
+    font-size: 3rem;
   }
 
   .sec-six-container .cont .box_1 h2 {
@@ -5939,7 +5939,7 @@
   }
 
   .sec-six-container__1 .boxx span {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .sec-six-container__1 .boxx p {
@@ -6137,7 +6137,7 @@
   .facebook {
     position: fixed;
     left: 20px;
-    bottom: 11%;
+    bottom: 13%;
     z-index: 100;
     display: block;
     max-width: auto;
