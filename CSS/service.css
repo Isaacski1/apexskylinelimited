@@ -507,11 +507,12 @@ footer {
 .copyright a {
   font-size: 2rem;
   font-weight: var(--font-weight-normal);
-  color: var(--white-color-3);
+  color: #f70;
+  text-decoration: underline !important;
 }
 
 .copyright a:hover {
-  text-decoration: underline !important;
+  color: rgb(255, 151, 60);
 }
 /* ============== Footer Section End ============== */
 

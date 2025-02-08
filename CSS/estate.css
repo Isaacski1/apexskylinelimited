@@ -1085,7 +1085,8 @@ footer {
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  column-gap: 1rem;
   justify-content: center;
   padding-top: 2rem;
   margin-top: 2rem;
@@ -1096,6 +1097,17 @@ footer {
   font-size: 2rem;
   font-weight: var(--font-weight-normal);
   color: var(--white-color-3);
+}
+
+.copyright a {
+  font-size: 2rem;
+  font-weight: var(--font-weight-normal);
+  color: #f70;
+  text-decoration: underline !important;
+}
+
+.copyright a:hover {
+  color: rgb(255, 151, 60);
 }
 /* ============== Footer Section End ============== */
 
