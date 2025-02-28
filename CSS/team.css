@@ -307,43 +307,65 @@ li {
   column-gap: 5rem;
 }
 
-.team-box {
-  padding: 20px 20px 40px;
-  border-radius: 10px;
-  background: var(--white-color);
-  box-shadow: var(--box-shadow);
+.team-row {
   display: flex;
   align-items: center;
+  column-gap: 3rem;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.team-box {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--background-color);
+  padding: 30px;
+}
+
+.team-box:hover {
+  background: var(--hover-color);
 }
 
 .team-box .img {
-  width: 20dvw;
-  height: 20dvw;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: auto;
   border-radius: 50%;
-  box-shadow: var(--box-shadow-2);
 }
 
 .team-box .img img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+}
+
+.team-box:hover .img img {
+  transform: scale(1.1);
 }
 
 .team-box h1 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: var(--font-weight-bold);
-  color: var(--gray-color);
-  margin-top: 1rem;
+  color: var(--background-color);
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .team-box h2 {
-  font-size: 2.5rem;
-  font-weight: var(--font-weight-bold);
-  color: var(--background-color);
-  margin-top: 1rem;
+  text-align: center;
+  font-size: 2.2rem;
 }
+
+.team-box:hover h1 {
+  color: var(--white-color);
+}
+
+.team-box:hover h2 {
+  color: var(--white-color-2);
+}
+
 /* Team Members End */
 
 /* ============== Footer Section Start ============== */
