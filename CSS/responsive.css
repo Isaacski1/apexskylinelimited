@@ -920,7 +920,7 @@
     width: 50px;
     height: 50px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
@@ -1064,9 +1064,9 @@
     /* border-radius: 0; */
   }
 
- .estate-customer {
+  .estate-customer {
     top: 40%;
-   display: none;
+    display: none;
   }
 
   .estate-customer img {
@@ -1826,18 +1826,10 @@
     font-size: 2rem;
   }
 
-  .sec-six-container__1 .boxx {
-    width: 200px;
-    height: 200px;
-    left: 30%;
-  }
-
-  .sec-six-container__1 .boxx span {
-    font-size: 6rem;
-  }
-
-  .sec-six-container__1 .boxx p {
-    font-size: 3rem;
+  .sec-six-container__1 .experience {
+    width: 80px;
+    height: 80px;
+    top: 35%;
   }
   /* Section Six End*/
   /* Section Seven Start */
@@ -2869,18 +2861,11 @@
     font-size: 2rem;
   }
 
-  .sec-six-container__1 .boxx {
-    width: 200px;
-    height: 200px;
-    left: 30%;
-  }
-
-  .sec-six-container__1 .boxx span {
-    font-size: 6rem;
-  }
-
-  .sec-six-container__1 .boxx p {
-    font-size: 3rem;
+  .sec-six-container__1 .experience {
+    width: 150px;
+    height: 150px;
+    top: 35%;
+    left: 35%;
   }
   /* Section Six End*/
   /* Section Seven Start */
@@ -3073,7 +3058,7 @@
     width: 45px;
     height: 45px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
@@ -4854,18 +4839,10 @@
     font-size: 1.5rem;
   }
 
-  .sec-six-container__1 .boxx {
+  .sec-six-container__1 .experience {
     width: 110px;
-    height: auto;
-    left: 30%;
-  }
-
-  .sec-six-container__1 .boxx span {
-    font-size: 2rem;
-  }
-
-  .sec-six-container__1 .boxx p {
-    font-size: 1.5rem;
+    height: 110px;
+    top: 35%;
   }
   /* Section Six End*/
   /* Section Seven Start */
@@ -5057,7 +5034,7 @@
     width: 40px;
     height: 40px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
@@ -5077,7 +5054,8 @@
     transition: transform 0.3s ease;
   }
 
-  .facebook-text,  .whatsapp-text {
+  .facebook-text,
+  .whatsapp-text {
     /* padding: 6px 1; */
     font-size: 1.7rem;
   }
@@ -5932,18 +5910,10 @@
     font-size: 1.5rem;
   }
 
-  .sec-six-container__1 .boxx {
-    width: 110px;
-    height: auto;
-    left: 30%;
-  }
-
-  .sec-six-container__1 .boxx span {
-    font-size: 3rem;
-  }
-
-  .sec-six-container__1 .boxx p {
-    font-size: 1.5rem;
+  .sec-six-container__1 .experience {
+    width: 100px;
+    height: 100px;
+    top: 35%;
   }
   /* Section Six End*/
   /* Section Seven Start */
@@ -6133,7 +6103,7 @@
     width: 40px;
     height: 40px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
@@ -6153,7 +6123,8 @@
     transition: transform 0.3s ease;
   }
 
-  .facebook-text,  .whatsapp-text {
+  .facebook-text,
+  .whatsapp-text {
     /* padding: 6px 1; */
     font-size: 1.7rem;
   }
@@ -7187,7 +7158,7 @@
     width: 40px;
     height: 40px;
   }
- 
+
   .facebook {
     position: fixed;
     left: 20px;
@@ -7207,7 +7178,8 @@
     transition: transform 0.3s ease;
   }
 
-  .facebook-text,  .whatsapp-text {
+  .facebook-text,
+  .whatsapp-text {
     /* padding: 6px 1; */
     font-size: 1.7rem;
   }
@@ -7695,6 +7667,10 @@
   .team-box h2 {
     font-size: 2.2rem;
     text-align: center;
+  }
+
+  .gallery-section-container {
+    margin-top: 0px !important;
   }
   /* Team End */
 }

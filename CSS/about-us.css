@@ -260,8 +260,24 @@ li {
   padding-top: 50px;
 }
 
-.about-box-1 img {
+.about-box-1 .img {
   width: 100%;
+  height: 15%;
+}
+
+.about-box-1 .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-box-1 .img .layout {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.3);
 }
 
 .about-box-1 .content p {
@@ -382,6 +398,11 @@ li {
 
 .about-video video {
   width: 100%;
+  scale: 100% 50%;
+  transform: translateY(-50%);
+  object-position: center;
+  object-fit: contain;
+  border-radius: 10px;
 }
 /* About Content End */
 
