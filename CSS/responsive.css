@@ -3596,6 +3596,14 @@
     font-size: 2.8rem;
     text-align: center;
   }
+
+  .about-box-1 .img {
+    height: auto;
+  }
+
+  .about-box-1 .img {
+    height: auto;
+  }
   /* Team End */
 }
 
@@ -4467,6 +4475,10 @@
   .team-box h2 {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .about-box-1 .img {
+    height: auto;
   }
   /* Team End */
 }
@@ -5547,6 +5559,10 @@
     font-size: 2rem;
     text-align: center;
   }
+
+  .about-box-1 .img {
+    height: auto;
+  }
   /* Team End */
 }
 
@@ -6588,6 +6604,10 @@
   .team-box h2 {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .about-box-1 .img {
+    height: auto;
   }
   /* Team End */
 }
@@ -7671,6 +7691,10 @@
 
   .gallery-section-container {
     margin-top: 0px !important;
+  }
+
+  .about-box-1 .img {
+    height: auto;
   }
   /* Team End */
 }
