@@ -209,11 +209,7 @@
   }
 
   footer {
-    margin-top: 440px;
-  }
-
-  #footer {
-    margin-top: 50px;
+    margin-top: 440px !important;
   }
 
   /* Contact Start */
@@ -1308,11 +1304,7 @@
   }
 
   footer {
-    margin-top: 440px;
-  }
-
-  #footer {
-    margin-top: 50px;
+    margin-top: 440px !important;
   }
 
   /* Contact Start */
@@ -2411,8 +2403,8 @@
     margin-top: 1rem;
   }
 
-  footer {
-    margin-top: initial;
+  #footer {
+    margin-top: 5rem !important;
   }
   /* Car Dealer Section End */
 
