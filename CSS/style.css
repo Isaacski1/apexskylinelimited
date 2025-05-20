@@ -902,7 +902,7 @@ li {
 .sec-three-box-1 h4 {
   font-size: 2.4rem;
   font-weight: var(--font-weight-bold);
-  color: var(--hover-color);
+  color: var(--white-color);
 }
 
 .sec-three-box__1 {
@@ -1222,7 +1222,7 @@ li {
 .sec-four__box__1 .cont-1 .call span {
   width: 70px;
   height: 75px;
-  border: 1.5px solid var(--background-color);
+  border: 1.5px solid var(--white-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1230,7 +1230,7 @@ li {
 
 .sec-four__box__1 .cont-1 .call span i {
   font-size: 5rem;
-  color: var(--background-color);
+  color: var(--white-color);
   display: flex;
   align-items: center;
   justify-content: center;

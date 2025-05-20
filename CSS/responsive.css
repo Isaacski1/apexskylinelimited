@@ -1,8 +1,19 @@
 @media (max-width: 1440px) {
+  .logo img {
+    max-width: 200px;
+  }
+  .navbar-nav .nav-item .nav-link, .dropdown-item {
+    font-size: 1.7rem;
+    padding: 10px !important;
+  }
+
+  .lets-talk {
+    padding: 10px 30px;
+  }
   .hero-carousel-item-1 .content h1,
   .hero-carousel-item-2 .content h1,
   .hero-carousel-item-3 .content h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .hero-carousel-item-1 .content p,
@@ -18,6 +29,249 @@
     font-size: 3rem;
     width: 100%;
   }
+  /* Section One */
+  .hover-layer-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Section Two */
+  .section-two-item__1 h1 {
+    font-size: 4rem;
+    width: 80%
+  }
+
+  .houses .hut-house {
+    width: 150px;
+  }
+
+  .roof {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+  }
+
+  .walls {
+    width: 80px;
+    height: 70px;
+  }
+
+  .walls img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hut-house h1 {
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+
+  .sec-three-box__1 {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .sec-three-box__1__container a {
+    font-weight: var(--font-weight-bold);
+  }
+
+  .sec-four__box .img {
+    height: initial;
+  }
+
+  .sec-four__box__1 .sub-head {
+    font-size: 5rem;
+  }
+
+  .sec-four__box__1 p {
+    font-size: 1.8rem;
+  }
+
+  .sec-four__box__1 .cont .box h1 {
+    font-size: 3rem;
+  }
+
+  .sec-four__box__1 .cont .box h2 {
+    font-size: 1.8rem;
+  }
+
+  .sec-four__box__1 .cont-1 .get-start {
+    padding: 13px 30px;
+    font-size: 2rem;
+  }
+
+  .sec-four__box__1 .cont-1 .call span {
+    width: 60px;
+    height: 65px;
+  }
+
+  .sec-four__box__1 .cont-1 .call span i {
+    font-size: 4rem;
+  }
+
+  .section-five-head-content .box h1 {
+    font-size: 5rem;
+  }
+
+  .section-five-head-content p {
+    font-size: 2rem;
+  }
+
+  .sec-5-layout .content #view {
+    width: 60px;
+    height: 60px;
+    font-size: 4rem
+  }
+
+  .sec-5-layout .content .box {
+    padding: 12px 18px
+  }
+
+  .sec-5-layout .content .box p {
+    font-size:1.8rem;
+  }
+
+  .sec-5-layout .content .box h1 {
+    font-size: 2rem;
+  }
+
+  .section-five-carousel .owl-nav .owl-prev,
+.section-five-carousel .owl-nav .owl-next {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  /* =============== Customers Review Start =============== */
+.customers-review-container {
+  padding-top: 100px;
+}
+
+.customers-review-container .heading .box {
+  padding-left: 1rem;
+  border-left: 4px solid var(--background-color);
+}
+
+.customers-review-container .heading .box h1 {
+  font-size: 4rem;
+}
+
+.customers-review-container .heading p {
+  font-size: 2rem;
+}
+
+/* Section Six */
+.sec-six-container .box h1 {
+  font-size: 4rem;
+}
+
+.sec-six-container .info {
+  font-size: 1.7rem;
+}
+
+.sec-six-container .cont-2 .box_2 {
+  padding: 10px 40px 10px 10px;
+}
+
+.sec-six-container .cont .box_1 span i {
+  width: 25px;
+  height: 25px;
+  font-size: 2.5rem;
+}
+
+.sec-six-container .cont .box_1 h2  {
+  font-size: 2rem;
+}
+
+.sec-six-container .cont-2 .box_2 p {
+  font-size: 1.5rem;
+}
+
+.sec-six-container__1 .experience {
+  width: 150px;
+  height: 150px;
+}
+
+.sec-seven .box h1 {
+  font-size: 4rem;
+}
+
+.sec-seven p {
+  font-size: 1.8rem;
+}
+
+.sec-seven-cont .box-cont_1 .box__1a a,
+.sec-seven-cont .box-cont_1 .box__1a h1 {
+  font-size: 1.8rem;
+}
+
+.send-msg-btn {
+  padding: 10px 25px;
+  font-size: 2rem;
+}
+
+.send-msg-btn i {
+  font-size: 2rem;
+}
+
+.sec-eight-container .sec-eight-heading h1 {
+  font-size: 5rem;
+}
+
+.main-head__blog {
+  font-size: 2rem;
+}
+
+/* Section Nine */
+.section-nine {
+  padding: 30px;
+}
+.section-nine-box h1 {
+  font-size: 5rem;
+}
+
+footer {
+  padding: 20px;
+}
+
+.footer-container {
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.footer-img {
+  max-width: 200px;
+}
+
+.footer-cont .info p {
+  font-size:2rem;
+}
+
+.footer-cont .info h1 {
+  font-size: 1.8rem;
+}
+
+.footer-box-head h1 {
+  font-size: 3rem;
+}
+
+.copyright p, .copyright a {
+  font-size: 1.8rem;
+}
+
+.whatsapp-chat img {
+  width: 40px;
+  height: 40px
+}
+
+.facebook img {
+  width: 40px;
+  height: 40px
+}
+
+.facebook {
+  bottom: 15%;
+}
+.facebook-text, .whatsapp-text {
+  font-size: 1.8rem;
+  padding: 8px 15px;
+}
 
   .estate-customer {
     top: 40%;
@@ -45,6 +299,8 @@
     height: 100%;
   }
 
+  
+
   .car_dealer-hero-carousel-item-1 .content p,
   .car_dealer-hero-carousel-item-2 .content p,
   .car_dealer-hero-carousel-item-3 .content p {
@@ -65,7 +321,7 @@
   .car_dealer-hero-carousel-item-1 .content h1,
   .car_dealer-hero-carousel-item-2 .content h1,
   .car_dealer-hero-carousel-item-3 .content h1 {
-    font-size: 6.5rem;
+    font-size: 5rem;
 
     position: absolute;
     left: 60%;
@@ -208,9 +464,35 @@
     font-size: 2.5rem;
   }
 
-  footer {
-    margin-top: 440px !important;
+  .car-dealer-row-box-1 .content .head-1 p {
+    font-size: 2rem;
   }
+
+  .car-dealer-row-box-1 .content h1 {
+    font-size: 4rem;
+  }
+
+  .car-dealer-row-box-1 .content p {
+    font-size: 1.8rem;
+  }
+
+  .car-dealer-row-box-1 .content .head-2 h3, 
+  .car-dealer-row-box-1 .content .head-2 .box i {
+    font-size: 2rem;
+  }
+
+  .car-dealer-sec-3-cont .box__1 .cont-1 {
+    align-items: center;
+  }
+
+  .car-dealer-sec-3-cont .box__1 .cont-1 .call__icon i {
+    margin-top: -40px;
+  }
+
+  .car-dealer-sec-3-cont .box__1 .cont-1 .boxx {
+    margin-top: -50px;
+  }
+  
 
   /* Contact Start */
   .form-contact-container {
@@ -227,6 +509,72 @@
     row-gap: 2rem;
   }
   /* Contact End */
+
+  /* Estate Agency */
+  .estate-hero-carousel-item-1 .content p, 
+  .estate-hero-carousel-item-2 .content p,
+  .estate-hero-carousel-item-3 .content p {
+    font-size: 1.6rem;
+  }
+
+  .estate-hero-carousel-item-1 .content a,
+  .estate-hero-carousel-item-2 .content a,
+  .estate-hero-carousel-item-3 .content a {
+    padding: 10px 20px;
+    font-size: 1.8rem;
+  }
+
+  .estate-carousel .owl-nav .owl-prev,
+  .estate-carousel .owl-nav .owl-next {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .estate-carousel .owl-nav .owl-prev span {
+    font-size: 4.5rem;
+    line-height: 25px;
+  }
+
+  .estate-carousel .owl-nav .owl-next span {
+    font-size: 4.5rem;
+    line-height: 25px;
+  }
+
+  .estate-customer {
+    width: 250px;
+    height: 100px
+  }
+
+  .estate-sec-container-2 .estate-sec-head {
+    font-size: 2rem;
+  }
+
+  .estate-sec-container-2 h2 {
+    font-size: 4rem;
+  }
+
+  .estate-sec-container-2 .cont .box h3, 
+  .estate-sec-container-2 .estate-title {
+    font-size: 3.5rem;
+  }
+
+  .estate-sec-container-2 .cont .box p {
+    font-size: 1.8rem;
+  }
+
+  .estate-section-two-container .box-1 h1 {
+    font-size: 3.5rem
+  }
+
+  .estate-section-two-container p {
+    font-size: 1.8rem;
+  }
+
+  .team-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    }
 }
 
 @media (max-width: 1300px) {
